@@ -1,8 +1,10 @@
+package y2010Africa;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.PrintWriter;
 
-public class Main {
+public class B {
 
     private static String go(String s) {
         String[] split = s.split("\\s");
