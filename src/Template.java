@@ -19,6 +19,10 @@ public class Template {
 
             int numCases = Integer.parseInt(reader.readLine());
             for (int i = 0; i < numCases; i++) {
+
+                // uncomment if each case has additional specifications
+                // String[] caseArgs = reader.readLine().split(" ");
+
                 writer.println("Case #" + (i + 1) + ": " + go());
             }
 
