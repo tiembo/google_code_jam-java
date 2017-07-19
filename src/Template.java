@@ -3,9 +3,9 @@ import java.io.FileReader;
 import java.io.PrintWriter;
 
 public class Template {
-    static final String DIRECTORY = "/Users/tsong/Downloads/";
-    static final String FILE = "";
-    static final String OUTFILE = "/tmp/output-";
+    private static final String DIRECTORY = "";
+    private static final String FILE = "";
+    private static final String OUTFILE = "/tmp/output-";
 
     private static String go() {
         return "placeholder";
